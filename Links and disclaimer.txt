@@ -1,0 +1,5 @@
+https://mscs-php.uwstout.edu/2023FA/cs/248/001/FOLTZA6732/Final%20Assignment/purchase.php
+
+https://mscs-php.uwstout.edu/2023FA/cs/248/001/FOLTZA6732/Final%20Assignment/assignment9.html
+
+I was unable to fully impliment sql into the code. The total price of all selected items did not appear, and I was unable to find a way to fix this issue. However, I was able to implement a way to store the selected items into an sql database and retrieve the selected items from said database for viewing on the next page. I appologize for being unable to truly finish this project.

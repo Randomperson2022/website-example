@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Video Games Sale</title>
+	<link href="style.css" type="text/css" rel="stylesheet" >
+	<script src="information.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<h1>Video Games Sale</h1>
+	<h2>This is not real. This is a school assignment</h2>
+	<form name="orderForm" action="purchase.php" method="post" >
+	<table>
+		<tr>
+			<td><img src="NMS.jpg" alt="No Man's Sky"></td>
+			
+			<td><img src="GOWR.jpg" alt="God of War Ragnarok"></td>
+			
+		</tr>
+		<tr>
+			<td>
+				No Man's Sky<br>
+				$59.99<br>
+				<label for="NMS">Buy Now: </label>
+				<input type="checkbox" name="items[NMS]" value="59.99" id="NMS" class="items">
+			</td>
+			<td>
+				God of War Ragnarok<br>
+				price - $49.99<br>
+				<label for="GOW">Buy Now: </label>
+				<input type="checkbox" name="items[GOW]" value="49.99" id="GOW" class="items">
+			</td>
+		</tr>
+		<tr>
+			<td><img src="Horizon.jpg" alt="Horizon Forbiden West"></td>
+			
+			<td><img src="Prey.jpg" alt="Prey"></td>
+			
+		</tr>
+		<tr>
+			<td>
+				Horizon Forbidden West<br>
+				price - $29.99<br>
+				<label for="Horizon">Buy Now: </label>
+				<input type="checkbox" name="items[Horizon]" value="29.99" id="Horizon" class="items">
+			</td>
+			<td>
+				Prey<br>
+				price - $9.99<br>
+				<label for="Prey">Buy Now: </label>
+				<input type="checkbox" name="items[Prey]" value="9.99" id="Prey" class="items">
+			</td>
+		</tr>
+	</table>
+	<fieldset>
+		<legend>Order Form</legend>
+		
+		<label class="heading" for="firstname" id="fnamelabel" >First Name:</label>
+		<input type="text" name="firstname" id="firstname"><br>
+		
+		<label class="heading" for="lastname" id="lnamelabel">Last Name:</label>
+		<input type="text" name="lastname" id="lastname"><br>
+		
+		<label class="heading" for="street" id="stnamelabel">Street:</label>
+		<input type="text" name="street" id="street"><br>
+		
+		<label class="heading" for="city" id="citynamelabel">City:</label>
+		<input type="text" name="city" id="city"><br>
+		
+		<label class="heading" for="state" >State:</label>
+		<input type="text" name="state" id="state"><br>
+		
+		<label class="heading" for="zip" >Zip:</label>
+		<input type="text" name="zip" id="zip"><br>
+		
+		<label class="heading">Credit Card:</label>
+		<label><input type="radio" name="credit" value="mc" id="credit1">Mastercard</label>
+		<label><input type="radio" name="credit" value="visa" id="credit2">Visa</label>
+		<label><input type="radio" name="credit" value="ae" id="credit3">American Express</label><br>
+		
+	</fieldset>
+	
+	<button type="submit" onClick="submitForm()">Place Order</button>
+	</form>
+</body>
+
+</html>

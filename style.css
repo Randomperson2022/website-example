@@ -1,0 +1,84 @@
+body {
+	background-color: blue;
+	background-size: cover;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	background-color:gray;
+	border: 5px solid purple;
+	border-radius: 10px;
+	width: 750px;
+	height: 700px;
+	text-align: center;
+}
+
+fieldset {
+	border: 2px solid blue;
+	text-align: center;
+}
+
+table img {
+	border: 2px solid black;
+	width: 200px;
+	height: 250px;
+}
+
+.img-format {
+	border: 2px solid black;
+	width: 200px;
+	height: 250px;
+}
+
+.heading {
+	font-family: "Tahoma", "Verdana", sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	display: inline-block;
+}
+
+.heading::after {
+	display: inline-block;
+	width: 100%;
+}
+
+label, input[type="radio"] {
+    color: white;
+}
+
+dt {
+	font-weight: bold;
+	margin-top: 10pt;
+	color: black;
+}
+
+dd {
+	font-size: 11pt;
+	color: black;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+}
+
+p {
+	color: white;
+	text-align: center;
+}
+legend {
+	color: white;
+	text-align: center;
+}
+button {
+	position: absolute;
+	left: 46%;
+}
